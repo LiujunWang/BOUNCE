@@ -1,0 +1,30 @@
+{
+    "genia": {
+        "pretrained_path": "data/embedding/PubMed-shuffle-win-30.bin",
+        "embedding_dim": 200,
+        "char_dim": 50,
+        "hidden_size": 200,
+        "lstm_layers": 2
+    },
+    "kbp": {
+        "pretrained_path": "data/embedding/glove.dat",
+        "embedding_dim": 100,
+        "char_dim": 30,
+        "hidden_size": 200,
+        "lstm_layers": 2
+    },
+    "ace2005": {
+        "pretrained_path": "data/embedding/glove.dat",
+        "embedding_dim": 100,
+        "char_dim": 30,
+        "hidden_size": 200,
+        "lstm_layers": 2
+    },
+    "ACE2004": {
+        "pretrained_path": "data/embedding/glove_6b_dim100.dat",
+        "embedding_dim": 100,
+        "char_dim": 50,
+        "hidden_size": 100,
+        "lstm_layers": 1
+    }
+}
